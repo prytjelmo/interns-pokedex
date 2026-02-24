@@ -332,7 +332,6 @@ describe('View Endpoints', () => {
     });
   });
 });
-
 describe('404 Handler', () => {
   it('should return 404 for unknown routes', async () => {
     const response = await request(app).get('/unknown-route');
